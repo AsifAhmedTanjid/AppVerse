@@ -6,6 +6,7 @@ import { Link, NavLink } from "react-router";
 const Navbar = () => {
   return (
     <div>
+      
       <div className="navbar bg-base-100 shadow-sm px-[20px] md:px-[80px] ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -31,13 +32,40 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink 
+                  to="/" 
+                  className={({ isActive }) => 
+                    isActive 
+                      ? "text-transparent bg-clip-text bg-gradient-to-br from-[#632EE3] to-[#9F62F2] font-bold" 
+                      : "hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-[#632EE3] hover:to-[#9F62F2]"
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/Apps">App</NavLink>
+                <NavLink 
+                  to="/Apps" 
+                  className={({ isActive }) => 
+                    isActive 
+                      ? "text-transparent bg-clip-text bg-gradient-to-br from-[#632EE3] to-[#9F62F2] font-bold" 
+                      : "hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-[#632EE3] hover:to-[#9F62F2]"
+                  }
+                >
+                  Apps
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/Installation">Installation</NavLink>
+                <NavLink 
+                  to="/Installation" 
+                  className={({ isActive }) => 
+                    isActive 
+                      ? "text-transparent bg-clip-text bg-gradient-to-br from-[#632EE3] to-[#9F62F2] font-bold" 
+                      : "hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-[#632EE3] hover:to-[#9F62F2]"
+                  }
+                >
+                  Installation
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -55,13 +83,40 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-medium text-[16px] gap-8">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink 
+                to="/" 
+                className={({ isActive }) => 
+                  isActive 
+                    ? "text-transparent bg-clip-text bg-gradient-to-br from-[#632EE3] to-[#9F62F2] font-bold border-b-2 border-[#632EE3]" 
+                    : "hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-[#632EE3] hover:to-[#9F62F2] "
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/Apps">App</NavLink>
+              <NavLink 
+                to="/Apps" 
+                className={({ isActive }) => 
+                  isActive 
+                    ? "text-transparent bg-clip-text bg-gradient-to-br from-[#632EE3] to-[#9F62F2] font-bold border-b-2 border-[#632EE3]" 
+                    : "hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-[#632EE3] hover:to-[#9F62F2] "
+                }
+              >
+                Apps
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/Installation">Installation</NavLink>
+              <NavLink 
+                to="/Installation" 
+                className={({ isActive }) => 
+                  isActive 
+                    ? "text-transparent bg-clip-text bg-gradient-to-br from-[#632EE3] to-[#9F62F2] font-bold border-b-2 border-[#632EE3]" 
+                    : "hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-[#632EE3] hover:to-[#9F62F2] "
+                }
+              >
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
