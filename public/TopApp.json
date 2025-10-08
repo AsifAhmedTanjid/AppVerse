@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://example.com/images/app1.png",
+    "title": "TaskFlow",
+    "companyName": "FlowTech",
+    "id": 1,
+    "description": "TaskFlow is a powerful productivity app designed to simplify task management and enhance your daily efficiency. It allows users to create, organize, and track their personal or professional to-do lists in a visually appealing and intuitive interface. With features like smart reminders, progress tracking, and cloud synchronization, you can manage tasks seamlessly across all your devices. TaskFlow also supports collaboration, letting you share projects with teammates, assign responsibilities, and monitor progress in real-time. The app’s analytics feature gives insights into your productivity trends, helping you understand how to work smarter. Whether you are managing a team, planning personal goals, or handling multiple projects, TaskFlow helps keep everything structured and under control. With dark mode, offline access, and multiple themes, it adapts to your workflow. TaskFlow is the ultimate digital assistant to help you achieve more every single day.",
+    "size": 45,
+    "reviews": 5230,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 670 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2510 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app2.png",
+    "title": "FitTrack",
+    "companyName": "HealthVerse",
+    "id": 2,
+    "description": "FitTrack is your all-in-one health and fitness companion, built to help users achieve their physical goals through personalized guidance and accurate tracking. From counting steps and monitoring calories to analyzing workouts and sleep quality, FitTrack offers an in-depth understanding of your body and habits. It uses AI to create workout plans tailored to your goals — whether that’s weight loss, muscle gain, or endurance improvement. You can log meals easily with barcode scanning or photo recognition, and get nutritional feedback in real time. FitTrack also integrates with smartwatches and fitness bands, keeping all your data in sync. Progress charts, motivational badges, and a social community keep you accountable and inspired. Whether you’re an athlete or a beginner, FitTrack makes it simple to build consistency, stay healthy, and enjoy the process of transformation through data-driven insight and smart coaching.",
+    "size": 80,
+    "reviews": 8412,
+    "ratingAvg": 4.7,
+    "downloads": 340000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 5332 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app3.png",
+    "title": "NoteNest",
+    "companyName": "BrightSoft",
+    "id": 3,
+    "description": "NoteNest is a modern note-taking app created for students, professionals, and creative minds who want an effortless way to organize their thoughts. It supports markdown, code highlighting, voice notes, and image embedding, making it flexible for every type of user. Whether you’re capturing quick reminders or writing long research notes, NoteNest ensures everything stays synced and accessible across devices. The app automatically categorizes your notes using smart tags and lets you search through thousands of entries in seconds. It also offers secure cloud storage, ensuring your important ideas are never lost. NoteNest’s minimal design eliminates distractions and promotes focus, while customizable themes help you personalize your workspace. Collaboration features allow teams to co-edit documents in real time. Whether you’re in class, at work, or brainstorming ideas, NoteNest provides the simplicity and structure to keep your mind organized.",
+    "size": 25,
+    "reviews": 1920,
+    "ratingAvg": 4.2,
+    "downloads": 76000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app4.png",
+    "title": "Foodify",
+    "companyName": "EatRight Labs",
+    "id": 4,
+    "description": "Foodify is a smart meal planner and recipe discovery app designed to make healthy eating simple, enjoyable, and sustainable. It analyzes your dietary preferences, allergies, and nutritional goals to create personalized meal plans. Foodify provides thousands of chef-tested recipes, complete with step-by-step instructions and nutritional breakdowns. The app also features a grocery list generator that automatically compiles ingredients for your selected recipes, saving time and reducing food waste. You can filter meals by cuisine, calorie range, or dietary type — such as keto, vegan, or gluten-free. Its AI-powered recommendation engine learns your taste preferences over time to suggest meals you’ll love. Foodify also integrates with fitness apps to align your calorie intake with your exercise goals. Whether you’re cooking for one or planning family meals, Foodify ensures that healthy eating is effortless, affordable, and delicious.",
+    "size": 60,
+    "reviews": 6750,
+    "ratingAvg": 4.6,
+    "downloads": 215000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 3950 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app5.png",
+    "title": "TravelMate",
+    "companyName": "SkyBound",
+    "id": 5,
+    "description": "TravelMate is your personal digital travel assistant designed to make trip planning, booking, and exploration easier than ever. The app combines itinerary management, flight and hotel search, and real-time travel updates in a single place. You can create day-by-day travel plans, discover local attractions, and get navigation assistance even when offline. TravelMate provides smart recommendations for restaurants, activities, and landmarks based on your preferences and past trips. It also includes built-in currency converters, weather forecasts, and language translation tools, making it the perfect companion for international travelers. The integrated expense tracker helps manage budgets and track spending effortlessly. Users can store boarding passes, hotel confirmations, and tickets all in one secure location. With a modern interface and offline functionality, TravelMate ensures you can travel smarter, safer, and stress-free — no matter where in the world you go.",
+    "size": 70,
+    "reviews": 9320,
+    "ratingAvg": 4.3,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 4700 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app6.png",
+    "title": "PhotoVerse",
+    "companyName": "PixelArt Studio",
+    "id": 6,
+    "description": "PhotoVerse is a professional-grade photo editing app powered by advanced AI to help photographers and content creators produce stunning visuals effortlessly. It includes a wide range of tools — from color correction and exposure control to retouching and background removal. AI filters automatically enhance images while preserving natural tones. With PhotoVerse, users can edit RAW files, apply gradient overlays, and create double exposures right on their phones. The app also offers one-tap presets for quick results and batch editing features for productivity. PhotoVerse integrates directly with popular social media platforms, allowing instant sharing of your masterpieces. It supports layer editing, masking, and brush tools for advanced users, yet remains beginner-friendly. Offline editing, cloud storage, and non-destructive editing make it ideal for photographers on the go. Whether you’re a professional or a hobbyist, PhotoVerse gives your photos life and creativity.",
+    "size": 95,
+    "reviews": 10540,
+    "ratingAvg": 4.8,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 470 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 7420 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app7.png",
+    "title": "MindEase",
+    "companyName": "CalmTech",
+    "id": 7,
+    "description": "MindEase is a mindfulness and meditation app designed to help users manage stress, anxiety, and sleep issues through guided relaxation practices. The app offers a wide variety of sessions including breathing exercises, body scans, sleep stories, and daily affirmations. With soothing background sounds and customizable meditation timers, MindEase helps you create moments of calm in your busy day. Users can track their emotional progress, set wellness goals, and access expert-curated programs for focus, relaxation, and resilience. MindEase also uses AI to recommend personalized meditation routines based on your mood and stress levels. The app’s journaling section lets you record daily reflections to build self-awareness. Its offline support ensures that peace of mind is always accessible — even without the internet. Whether you’re new to meditation or a daily practitioner, MindEase helps you cultivate a balanced and positive mindset.",
+    "size": 50,
+    "reviews": 4130,
+    "ratingAvg": 4.4,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 420 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app8.png",
+    "title": "Langify",
+    "companyName": "EduSoft Global",
+    "id": 8,
+    "description": "Langify is an intelligent language learning app designed to make mastering new languages fun, engaging, and effective. It combines AI-driven lessons, gamified quizzes, and realistic conversation simulations to help you build vocabulary and confidence quickly. Langify supports over 30 languages, including English, Spanish, Japanese, and French. Its interactive lessons adapt to your pace, providing personalized feedback on pronunciation and grammar. The speech recognition system helps you practice speaking naturally, while the spaced repetition method ensures long-term retention of words and phrases. Langify also includes cultural notes and mini-stories that make learning more immersive. You can compete with friends on leaderboards and earn badges as you progress. Offline access allows you to learn anywhere, anytime. Whether you’re preparing for travel, exams, or personal growth, Langify transforms language learning into a truly rewarding journey.",
+    "size": 85,
+    "reviews": 7840,
+    "ratingAvg": 4.6,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  }
+]

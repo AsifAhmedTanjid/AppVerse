@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import githublogo from "../../assets/github-mark-white.png" 
-import { Link } from "react-router";
+import githublogo from "../../assets/github-mark-white.png";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -31,39 +31,44 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <a>App</a>
+                <NavLink to="/Apps">App</NavLink>
               </li>
               <li>
-                <a>Installation</a>
+                <NavLink to="/Installation">Installation</NavLink>
               </li>
             </ul>
           </div>
           {/* <div> */}
-          
-          <Link to='/' className="font-bold md:text-2xl text-sm bg-clip-text text-transparent bg-gradient-to-br from-[#632EE3] to-[#9F62F2] flex hover:cursor-pointer"><img src={logo} alt="" className="w-[40px] mr-2" /> AppVerse</Link>
+
+          <Link
+            to="/"
+            className="font-bold md:text-2xl text-sm bg-clip-text text-transparent bg-gradient-to-br from-[#632EE3] to-[#9F62F2] flex hover:cursor-pointer"
+          >
+            <img src={logo} alt="" className="w-[40px] mr-2" /> AppVerse
+          </Link>
           {/* </div> */}
         </div>
 
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-medium text-[16px] gap-8">
             <li>
-              <a>Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a>App</a>
+              <NavLink to="/Apps">App</NavLink>
             </li>
             <li>
-              <a>Installation</a>
+              <NavLink to="/Installation">Installation</NavLink>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white">
-           <img src={githublogo} alt="" className="w-[20px] mr-2" /> Contribute
-          </a>
+          <NavLink to={`https://github.com/AsifAhmedTanjid/AppVerse`} className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white text-[16px]">
+            <img src={githublogo} alt="" className="w-[20px] mr-2" /> Contribute
+          </NavLink>
         </div>
       </div>
     </div>
