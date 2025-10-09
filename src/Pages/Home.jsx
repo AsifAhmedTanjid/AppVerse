@@ -1,16 +1,19 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
 import TrendingApps from '../Components/Apps/TrendingApps';
-import { useLoaderData } from 'react-router';
+
+import useApps from '../Hooks/useApps';
 
 const Home = () => {
-    const topApps =useLoaderData();
-    console.log(topApps);
+    // const AllApps =useLoaderData();
+    const {AllApps,loading,error}=useApps();
+
+    console.log(AllApps);
     
     return (
         <div>
             <Header></Header>
-            <TrendingApps topApps={topApps}></TrendingApps>
+            <TrendingApps AllApps={AllApps}></TrendingApps>
         </div>
     );
 };

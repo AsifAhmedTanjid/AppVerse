@@ -2,7 +2,8 @@ import React from "react";
 import AppCard from "./AppCard";
 import { NavLink } from "react-router";
 
-const TrendingApps = ({ topApps }) => {
+const TrendingApps = ({ AllApps }) => {
+const topApps = AllApps.slice(0,8);
   return (
     <div className="bg-[#F5F5F5]">
       <div className="text-center pt-20 pb-14">

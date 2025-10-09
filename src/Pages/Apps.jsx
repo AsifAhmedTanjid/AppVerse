@@ -1,9 +1,10 @@
 import React from 'react';
+import AllApps from '../Components/Apps/AllApps';
 
 const Apps = () => {
     return (
         <div>
-            <h1>App</h1>
+            <AllApps></AllApps>
         </div>
     );
 };

@@ -73,7 +73,7 @@ const Navbar = () => {
 
           <Link
             to="/"
-            className="font-bold md:text-2xl text-sm bg-clip-text text-transparent bg-gradient-to-br from-[#632EE3] to-[#9F62F2] flex hover:cursor-pointer"
+            className="font-bold md:text-2xl text-sm bg-clip-text text-transparent bg-gradient-to-br from-[#632EE3] to-[#9F62F2] flex hover:cursor-pointer items-center"
           >
             <img src={logo} alt="" className="w-[40px] mr-2" /> AppVerse
           </Link>
