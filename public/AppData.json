@@ -1,6 +1,6 @@
 [  
     {
-    "image": "https://example.com/images/app1.png",
+    "image": "https://i.ibb.co.com/hJBQ9NWf/Screenshot-2025-10-10-091358.png",
     "title": "TaskFlow",
     "companyName": "FlowTech",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app2.png",
+    "image": "https://i.ibb.co.com/fdgbRbWf/59488580-857440134591156-5102942981879496704-n.jpg",
     "title": "FitTrack",
     "companyName": "HealthVerse",
     "id": 2,
@@ -36,9 +36,9 @@
     ]
   },
   {
-    "image": "https://example.com/images/app3.png",
-    "title": "NoteNest",
-    "companyName": "BrightSoft",
+    "image": "https://i.ibb.co.com/RKzZ768/301433619-480553334078175-3957015313396809621-n.jpg",
+    "title": "BrightSoft",
+    "companyName": "BrightSoft Inc",
     "id": 3,
     "description": "NoteNest is a modern note-taking app created for students, professionals, and creative minds who want an effortless way to organize their thoughts. It supports markdown, code highlighting, voice notes, and image embedding, making it flexible for every type of user. Whether you’re capturing quick reminders or writing long research notes, NoteNest ensures everything stays synced and accessible across devices. The app automatically categorizes your notes using smart tags and lets you search through thousands of entries in seconds. It also offers secure cloud storage, ensuring your important ideas are never lost. NoteNest’s minimal design eliminates distractions and promotes focus, while customizable themes help you personalize your workspace. Collaboration features allow teams to co-edit documents in real time. Whether you’re in class, at work, or brainstorming ideas, NoteNest provides the simplicity and structure to keep your mind organized.",
     "size": 25,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app4.png",
+    "image": "https://i.ibb.co.com/8DqdX4sK/302530017-510235581103274-2388099060407208948-n.jpg",
     "title": "Foodify",
     "companyName": "EatRight Labs",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app5.png",
+    "image": "https://i.ibb.co.com/BVL773T9/79bbdb1f43fe16bb0cc2f2e6d338493e.png",
     "title": "TravelMate",
     "companyName": "SkyBound",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app6.png",
+    "image": "https://i.ibb.co.com/C5Ky7FNQ/unnamed.png",
     "title": "PhotoVerse",
     "companyName": "PixelArt Studio",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app7.png",
+    "image": "https://i.ibb.co.com/79kdwWx/images-1.jpg",
     "title": "MindEase",
     "companyName": "CalmTech",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://example.com/images/app8.png",
+    "image": "https://i.ibb.co.com/3YSWFz8G/Screenshot-2025-10-10-092448.png",
     "title": "Langify",
     "companyName": "EduSoft Global",
     "id": 8,
@@ -145,8 +145,8 @@
   }
     ,
   {
-    "image": "https://example.com/langify.png",
-    "title": "Langify",
+    "image": "https://i.ibb.co.com/KcVrsJ2Z/89649395-instagram-logo-976.jpg",
+    "title": "InstaGram",
     "companyName": "PolyGlot Labs",
     "id": 9,
     "description": "Langify helps users master new languages through personalized, interactive lessons and real-time pronunciation analysis. It adapts to your learning speed, focusing on speaking, listening, and grammar improvement. The app includes AI-driven conversation simulations that mimic native speakers, giving users practical experience in real-world scenarios. Langify tracks progress through detailed analytics and gamifies learning with streaks, achievements, and daily challenges. Offline lessons make it convenient for travelers or commuters. Its social learning feature connects you with global learners to practice live. Langify’s intuitive design and bite-sized lessons make language learning effective, enjoyable, and consistent — helping users reach fluency faster than ever before.",
@@ -163,7 +163,7 @@
     ]
   },
   {
-    "image": "https://example.com/shopwise.png",
+    "image": "https://i.ibb.co.com/Z6wMWCNN/images-2.jpg",
     "title": "ShopWise",
     "companyName": "DealSmart Co.",
     "id": 10,
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "image": "https://example.com/coderhub.png",
+    "image": "https://i.ibb.co.com/fYxXKvWt/images.png",
     "title": "CoderHub",
     "companyName": "DevSync Technologies",
     "id": 11,
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "image": "https://example.com/mindzen.png",
+    "image": "https://i.ibb.co.com/Q3z2HLw5/84817d-80a37887833947e9acf73c9f24dea78f-mv2.png",
     "title": "MindZen",
     "companyName": "InnerTech Studio",
     "id": 12,
@@ -217,7 +217,7 @@
     ]
   },
   {
-    "image": "https://example.com/petpal.png",
+    "image": "https://i.ibb.co.com/pYytCFy/images-3.jpg",
     "title": "PetPal",
     "companyName": "PawSoft Solutions",
     "id": 13,
@@ -235,7 +235,7 @@
     ]
   },
   {
-    "image": "https://example.com/newsbeat.png",
+    "image": "https://i.ibb.co.com/d37dRtH/750w.jpg",
     "title": "NewsBeat",
     "companyName": "InfoStream Media",
     "id": 14,
@@ -253,7 +253,7 @@
     ]
   },
   {
-    "image": "https://example.com/artify.png",
+    "image": "https://i.ibb.co.com/cc97k7CQ/unnamed-1.png",
     "title": "Artify",
     "companyName": "VisionCraft",
     "id": 15,
@@ -271,7 +271,7 @@
     ]
   },
   {
-    "image": "https://example.com/homeguard.png",
+    "image": "https://i.ibb.co.com/wNK9Fc9H/home-guard-logo-template-98389-original.jpg",
     "title": "HomeGuard",
     "companyName": "SafeNest Technologies",
     "id": 16,
@@ -289,7 +289,7 @@
     ]
   },
   {
-    "image": "https://example.com/eventify.png",
+    "image": "https://i.ibb.co.com/chFHgZJ1/unnamed-2.png",
     "title": "Eventify",
     "companyName": "NextGen Connect",
     "id": 17,
@@ -307,7 +307,7 @@
     ]
   },
   {
-    "image": "https://example.com/readify.png",
+    "image": "https://i.ibb.co.com/3mqxQLBK/unnamed-3.png",
     "title": "Readify",
     "companyName": "LitSphere Digital",
     "id": 18,
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "image": "https://example.com/focusmate.png",
+    "image": "https://i.ibb.co.com/ccVWqf8V/0x0.png",
     "title": "FocusMate",
     "companyName": "NeuroSync Labs",
     "id": 19,
@@ -343,7 +343,7 @@
     ]
   },
   {
-    "image": "https://example.com/ecohero.png",
+    "image": "https://i.ibb.co.com/KphzHJ1K/images-1.png",
     "title": "EcoHero",
     "companyName": "GreenSphere Innovations",
     "id": 20,
