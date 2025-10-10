@@ -3,6 +3,17 @@ import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import { Download, Star, ThumbsUp } from "lucide-react";
 import AppNotFound from "../Components/AppNotFound";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Rectangle,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -11,7 +22,6 @@ const AppDetails = () => {
 
   const [installed, setInstalled] = useState(false);
 
-  
   useEffect(() => {
     const existingList = JSON.parse(localStorage.getItem("installed")) || [];
     const isInstalled = existingList.some((item) => item.id === app?.id);
@@ -21,11 +31,14 @@ const AppDetails = () => {
   if (loading) return <p className="px-6 py-10 text-center">Loading...</p>;
   if (!app) return <AppNotFound></AppNotFound>;
 
+  // Debug log to check ratings data
+  console.log("App ratings data:", app.ratings);
+
   const handleInstall = () => {
     const existingList = JSON.parse(localStorage.getItem("installed")) || [];
     const updatedList = [...existingList, app];
     localStorage.setItem("installed", JSON.stringify(updatedList));
-    setInstalled(true); 
+    setInstalled(true);
   };
 
   return (
@@ -59,12 +72,16 @@ const AppDetails = () => {
             <div className="flex flex-col items-center p-4">
               <Star size={30} className="fill-orange-500" />
               <p className="text-base sm:text-lg pt-2">Average Ratings</p>
-              <h1 className="text-2xl sm:text-[40px] font-extrabold">{app.ratingAvg}</h1>
+              <h1 className="text-2xl sm:text-[40px] font-extrabold">
+                {app.ratingAvg}
+              </h1>
             </div>
             <div className="flex flex-col items-center p-4">
               <ThumbsUp size={30} className="fill-purple-500" />
               <p className="text-base sm:text-lg pt-2">Total Reviews</p>
-              <h1 className="text-2xl sm:text-[40px] font-extrabold">{app.reviews}</h1>
+              <h1 className="text-2xl sm:text-[40px] font-extrabold">
+                {app.reviews}
+              </h1>
             </div>
           </div>
 
@@ -82,9 +99,46 @@ const AppDetails = () => {
 
       <hr className="border-gray-300 mb-6" />
 
+      {/* chart */}
+
+      <div>
+        <h1 className="font-semibold text-xl sm:text-2xl py-4">
+          Ratings Distribution
+        </h1>
+        <div className="md:p-6 h-96 ">
+          {/* responsive container  */}
+          <ResponsiveContainer width="100%" height={300}>
+            <BarChart
+              data={[...app.ratings].reverse()}
+              layout="vertical"
+              margin={{
+                top: 5,
+                right: 30,
+                left: 40,
+                bottom: 5,
+              }}
+            >
+              <XAxis type="number" axisLine={false} tickLine={false} />
+              <YAxis
+                dataKey="name"
+                type="category"
+                axisLine={false}
+                tickLine={false}
+              />
+              <Tooltip />
+              <Bar dataKey="count" fill="#FF8811" />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+
+      <hr className="border-gray-300 mb-6" />
+
       <div>
         <h1 className="font-semibold text-xl sm:text-2xl py-4">Description</h1>
-        <p className="text-[#627382] text-base sm:text-xl text-justify">{app.description}</p>
+        <p className="text-[#627382] text-base sm:text-xl text-justify">
+          {app.description}
+        </p>
       </div>
     </div>
   );
