@@ -5,10 +5,22 @@ import AppNotFound from "../AppNotFound";
 
 const AllApps = () => {
   const [search, setSearch ] = useState('')
-  const { AllApps } = useApps();
+  const { AllApps, loading } = useApps();
  const term=search.trim().toLocaleLowerCase()
   const searchedApp =term?AllApps.filter(app=>app.title.toLocaleLowerCase().includes(term)):AllApps
-//   console.log(searchedApp);
+
+
+  
+  if (loading) {
+    return (
+      <div className="bg-[#F5F5F5] min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="loading loading-spinner loading-lg text-primary"></div>
+          <p className="mt-4 text-gray-600">Loading apps...</p>
+        </div>
+      </div>
+    );
+  }
   
   return (
     <div className="bg-[#F5F5F5]">
@@ -41,7 +53,9 @@ const AllApps = () => {
           ))}
         </div>
       ) : (
-        <AppNotFound></AppNotFound>
+        // Only show AppNotFound if we have data but no search results
+        // This prevents showing "no apps found" during initial load
+        AllApps.length > 0 ? <AppNotFound></AppNotFound> : null
       )}
       {/* </div> */}
     </div>
