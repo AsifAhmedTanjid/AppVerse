@@ -1,5 +1,6 @@
 import { Download, Star } from "lucide-react";
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const [installedApp, SetInstalledApp] = useState([]);
@@ -22,11 +23,24 @@ const Installation = () => {
 
 const handleRemove =(id)=>{
     const existingList =JSON.parse(localStorage.getItem('installed'))
+    
+    
+    const appToRemove = existingList.find(app => app.id === id)
+    
     let UpdatedList =existingList.filter(a=>a.id!==id)
     // for ui instant update 
     SetInstalledApp(UpdatedList)
     localStorage.setItem('installed',JSON.stringify(UpdatedList))
     
+    
+    toast.error(`${appToRemove?.title || 'App'} has been uninstalled successfully!`, {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+    });
 }
 
 

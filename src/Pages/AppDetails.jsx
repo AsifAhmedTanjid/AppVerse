@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import { Download, Star, ThumbsUp } from "lucide-react";
 import AppNotFound from "../Components/AppNotFound";
+import { toast } from "react-toastify";
 import {
   Bar,
   BarChart,
@@ -31,7 +32,7 @@ const AppDetails = () => {
   if (loading) return <p className="px-6 py-10 text-center">Loading...</p>;
   if (!app) return <AppNotFound></AppNotFound>;
 
-  // Debug log to check ratings data
+  
   console.log("App ratings data:", app.ratings);
 
   const handleInstall = () => {
@@ -39,6 +40,16 @@ const AppDetails = () => {
     const updatedList = [...existingList, app];
     localStorage.setItem("installed", JSON.stringify(updatedList));
     setInstalled(true);
+    
+    // Show success toast notification
+    toast.success(`${app.title} has been installed successfully!`, {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+    });
   };
 
   return (
