@@ -8,7 +8,7 @@ const Home = () => {
     // const AllApps =useLoaderData();
     const {AllApps,loading,error}=useApps();
 
-    console.log(AllApps);
+    // console.log(AllApps);
     
     return (
         <div>

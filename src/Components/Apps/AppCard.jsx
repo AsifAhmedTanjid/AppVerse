@@ -1,8 +1,10 @@
 import React from "react";
 import { Star, Download } from "lucide-react";
+import { Link } from "react-router";
 
 const AppCard = ({ app }) => {
   return (
+    <Link to={`/apps/${app.id}`}>
     <div>
       <div className="card bg-base-100 w-96 shadow-sm">
         <figure>
@@ -30,6 +32,7 @@ const AppCard = ({ app }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
