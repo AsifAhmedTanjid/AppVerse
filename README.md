@@ -77,6 +77,7 @@ npm run dev
 #### Dependencies List
 
 ```
+"dependencies": {
   "@tailwindcss/vite": "^4.1.14",
   "axios": "^1.12.2",
   "lucide-react": "^0.545.0",
@@ -92,6 +93,7 @@ npm run dev
 #### Dev Dependencies List
 
 ```
+"devDependencies":{
   "@eslint/js": "^9.36.0",
   "@types/react": "^19.1.16",
   "@types/react-dom": "^19.1.9",
