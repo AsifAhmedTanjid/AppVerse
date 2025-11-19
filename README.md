@@ -4,6 +4,8 @@
 
 AppVerse is a comprehensive web application that allows users to discover, explore, and manage applications. Built with modern React technologies, it provides an intuitive interface for browsing apps, viewing detailed information, managing installations, and tracking user preferences.
 
+## Live Site
+🌐 [Live Demo](https://appversefree.netlify.app/) 
 
 ## ✨ Features
 
