@@ -51,11 +51,6 @@ AppVerse is a comprehensive web application that allows users to discover, explo
 ### **User Experience**
 - **React Toastify** - Toast notifications
 
-## 👨‍💻 Author
-
-**Asif Ahmed Tanjid**
-- GitHub: [@AsifAhmedTanjid](https://github.com/AsifAhmedTanjid)
-
 ## Installation
 
 ```bash
@@ -107,5 +102,10 @@ npm run dev
 }
 
 ```
+
+## 👨‍💻 Author
+
+**Asif Ahmed Tanjid**
+- GitHub: [@AsifAhmedTanjid](https://github.com/AsifAhmedTanjid)
 
 
